@@ -1,0 +1,20 @@
+<!-- web.xml -->
+<web-app>
+    <servlet>
+        <servlet-name>SaveLanguageServlet</servlet-name>
+        <servlet-class>SaveLanguageServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SaveLanguageServlet</servlet-name>
+        <url-pattern>/SaveLanguageServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>RecommendServlet</servlet-name>
+        <servlet-class>RecommendServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RecommendServlet</servlet-name>
+        <url-pattern>/RecommendServlet</url-pattern>
+    </servlet-mapping>
+</web-app>
